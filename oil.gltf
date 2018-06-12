@@ -1,0 +1,214 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0, 
+            "componentType" : 5123, 
+            "count" : 139149, 
+            "max" : [
+                31862
+            ], 
+            "min" : [
+                0
+            ], 
+            "type" : "SCALAR"
+        }, 
+        {
+            "bufferView" : 1, 
+            "componentType" : 5126, 
+            "count" : 31863, 
+            "max" : [
+                61.83610153198242, 
+                181.78399658203125, 
+                3.4714670181274414
+            ], 
+            "min" : [
+                -327.37701416015625, 
+                -417.27301025390625, 
+                -48.468414306640625
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 2, 
+            "componentType" : 5126, 
+            "count" : 31863, 
+            "max" : [
+                0.99957275390625, 
+                0.9486373662948608, 
+                0.99993896484375
+            ], 
+            "min" : [
+                -0.9947813153266907, 
+                -0.9914548397064209, 
+                -0.999969482421875
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 3, 
+            "componentType" : 5126, 
+            "count" : 31863, 
+            "max" : [
+                1.0, 
+                1.0
+            ], 
+            "min" : [
+                0.0, 
+                0.0
+            ], 
+            "type" : "VEC2"
+        }
+    ], 
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter", 
+        "version" : "2.0"
+    }, 
+    "bufferViews" : [
+        {
+            "buffer" : 0, 
+            "byteLength" : 278298, 
+            "byteOffset" : 0, 
+            "target" : 34963
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 382356, 
+            "byteOffset" : 278300, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 382356, 
+            "byteOffset" : 660656, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 254904, 
+            "byteOffset" : 1043012, 
+            "target" : 34962
+        }
+    ], 
+    "buffers" : [
+        {
+            "byteLength" : 1297916, 
+            "uri" : "oil.bin"
+        }
+    ], 
+    "images" : [
+        {
+            "uri" : "NORMAL.png"
+        }, 
+        {
+            "uri" : "OilWell_Retopo.png"
+        }
+    ], 
+    "materials" : [
+        {
+            "name" : "Material", 
+            "normalTexture" : {
+                "index" : 0
+            }, 
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ], 
+    "meshes" : [
+        {
+            "name" : "model.002", 
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2, 
+                        "POSITION" : 1, 
+                        "TEXCOORD_0" : 3
+                    }, 
+                    "indices" : 0, 
+                    "material" : 0
+                }
+            ]
+        }
+    ], 
+    "nodes" : [
+        {
+            "name" : "Camera", 
+            "rotation" : [
+                0.483536034822464, 
+                0.33687159419059753, 
+                -0.20870360732078552, 
+                0.7804827094078064
+            ], 
+            "translation" : [
+                7.481131553649902, 
+                5.34366512298584, 
+                6.5076398849487305
+            ]
+        }, 
+        {
+            "name" : "Lamp", 
+            "rotation" : [
+                0.16907575726509094, 
+                0.7558802962303162, 
+                -0.27217137813568115, 
+                0.570947527885437
+            ], 
+            "scale" : [
+                1.0, 
+                1.0, 
+                0.9999999403953552
+            ], 
+            "translation" : [
+                0.15591025352478027, 
+                5.903861999511719, 
+                -1.0054539442062378
+            ]
+        }, 
+        {
+            "mesh" : 0, 
+            "name" : "model.002", 
+            "rotation" : [
+                0.031964194029569626, 
+                0.706384003162384, 
+                -0.706384003162384, 
+                0.03196419030427933
+            ], 
+            "scale" : [
+                0.03680252656340599, 
+                0.03756261616945267, 
+                0.041198089718818665
+            ], 
+            "translation" : [
+                -6.696308135986328, 
+                0.05041005089879036, 
+                -2.694457530975342
+            ]
+        }
+    ], 
+    "samplers" : [
+        {}
+    ], 
+    "scene" : 0, 
+    "scenes" : [
+        {
+            "name" : "Scene", 
+            "nodes" : [
+                2, 
+                1, 
+                0
+            ]
+        }
+    ], 
+    "textures" : [
+        {
+            "sampler" : 0, 
+            "source" : 0
+        }, 
+        {
+            "sampler" : 0, 
+            "source" : 1
+        }
+    ]
+}
